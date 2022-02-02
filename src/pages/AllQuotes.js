@@ -2,9 +2,9 @@ import React from "react";
 import QuoteList from "../components/quotes/QuoteList";
 
 const Dummy_quote = [
-  { id: "q1", author: "Ali", text: "React is a react" },
-  { id: "q2", author: "Waleed", text: "React is a react react" },
-  { id: "q3", author: "Saleh", text: "React is a JS" },
+  { id: "q1", author: "Ali", text: "Learning React is simple" },
+  { id: "q2", author: "Waleed", text: "Learning JS is simple" },
+  { id: "q3", author: "Saleh", text: "Learning Node is simple" },
 ];
 
 const AllQuotes = () => {
