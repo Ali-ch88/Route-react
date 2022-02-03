@@ -12,6 +12,9 @@ const Dummy_quote = [
 const QuoteDetails = () => {
   const params = useParams();
   const quote = Dummy_quote.find((quote) => quote.id === params.quoteId);
+  //   if (!quote) {
+  //     return <p>No Data Found</p>;
+  //   }
   return (
     <Fragment>
       <HighlightedQuote text={quote.text} author={quote.author} />
