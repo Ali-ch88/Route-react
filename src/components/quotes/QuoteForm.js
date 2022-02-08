@@ -21,12 +21,12 @@ const QuoteForm = (props) => {
     props.onAddQuote({ author: enteredAuthor, text: enteredText });
   }
 
-  const focusHandler = () => {
-    setIsEntering(true);
-  };
-  const finishHandler = () => {
-    setIsEntering(false);
-  };
+  // const focusHandler = () => {
+  //   setIsEntering(true);
+  // };
+  // const finishHandler = () => {
+  //   setIsEntering(false);
+  // };
 
   return (
     <Fragment>
