@@ -5,13 +5,13 @@ import classes from "./NewCommentForm.module.css";
 const NewCommentForm = (props) => {
   const commentTextRef = useRef();
 
-  // const submitFormHandler = (event) => {
-  //   event.preventDefault();
+  const submitFormHandler = (event) => {
+    event.preventDefault();
 
-  //   // optional: Could validate here
+    // optional: Could validate here
 
-  //   // send comment to server
-  // };
+    // send comment to server
+  };
 
   return (
     <form className={classes.form} onSubmit={submitFormHandler}>
