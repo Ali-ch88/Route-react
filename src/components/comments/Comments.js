@@ -3,12 +3,12 @@ import { useState } from 'react';
 import classes from './Comments.module.css';
 import NewCommentForm from './NewCommentForm';
 
-const Comments = () => {
-  const [isAddingComment, setIsAddingComment] = useState(false);
+// const Comments = () => {
+//   const [isAddingComment, setIsAddingComment] = useState(false);
 
-  const startAddCommentHandler = () => {
-    setIsAddingComment(true);
-  };
+//   const startAddCommentHandler = () => {
+//     setIsAddingComment(true);
+//   };
   
   return (
     <section className={classes.comments}>
