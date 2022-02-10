@@ -14,16 +14,7 @@ const sortQuotes = (quotes, ascending) => {
   });
 };
 
-const QuoteList = (props) => {
-  const history = useHistory();
-  const location = useLocation();
 
-  const queryParams = new URLSearchParams(location.search);
-  const isAscending = queryParams.get("sort") === "asc";
-  const sortedQuotes = sortQuotes(props.quotes, isAscending);
-  const sortingChangeHandler = () => {
-    history.push("/quotes?sort=" + (isAscending ? "desc" : "asc"));
-  };
   return (
     <Fragment>
       <div className={classes.sorting}>
